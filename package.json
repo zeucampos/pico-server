@@ -1,0 +1,16 @@
+{
+  "name": "pico-server",
+  "version": "1.0.0",
+  "description": "a flutter app for skateboarding.",
+  "main": "src/server.js",
+  "repository": "git@github.com:zeucampos/pico-server.git",
+  "author": "Eliseu Campos",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.5"
+  },
+  "devDependencies": {
+    "jest": "^27.1.1"
+  }
+}
