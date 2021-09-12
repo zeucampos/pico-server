@@ -6,6 +6,10 @@
   "repository": "git@github.com:zeucampos/pico-server.git",
   "author": "Eliseu Campos",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./src/server.js",
+    "start": "node ./src/server.js" 
+  },
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^6.0.5"
