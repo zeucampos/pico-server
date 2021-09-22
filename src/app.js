@@ -1,7 +1,9 @@
-import express from "express";
+const express = require("express");
 
 class AppController {
     constructor() {
+        this.express = express();
+
         this.middleware();
         this.routes();
     }
